@@ -70,3 +70,42 @@ Describe the key pain points users face:
 | **Week-2 Retention** | ≥ 40 % | Stickiness |
 | **Avg. Tasks per Active User** | ≥ 5 / week | Productivity |
 | **Crash-Free Sessions** | ≥ 95 % | Stability
+
+
+---
+
+## 8. Technical Constraints
+- Stack: **Flutter**, **FastAPI**, **Firebase Firestore**, **LangChain + OpenAI**  
+- Backend hosting: **Railway / Render**  
+- CI/CD: **GitHub Actions → Vercel / Railway**  
+- Privacy: no data leaves Firebase without encryption or user consent  
+
+---
+
+## 9. Milestones / Phases (I-DATIC)
+| Phase | Duration | Output |
+|--------|-----------|---------|
+| **DEFINE** | Week 1-2 | PRD + Architecture |
+| **ANALYZE** | Week 3-4 | Risks + Schema + Deps |
+| **TEST** | Week 5-6 | MVP Prototype |
+| **IMPLEMENT** | Week 7-8 | Deployed MVP v1.0 |
+| **CONFIRM** | Week 9 | Playbook + Retro |
+
+---
+
+## 10. Risks & Assumptions
+| Risk | Impact | Mitigation |
+|-------|---------|-------------|
+| API cost overruns | Medium | Token limits + monitoring |
+| Auth latency / errors | Low | Cache tokens + retry |
+| User misunderstanding | Medium | Guided onboarding |
+| Team bandwidth | High | Prioritize MVP scope |
+
+---
+
+## Approval
+- **Prepared by:** @Sharkster  
+- **Reviewed by:** @Sharkster (Backend Lead, Frontend Lead, PM)  
+- **Approved on:** 2025-10-05  
+
+---
